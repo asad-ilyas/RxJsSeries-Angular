@@ -1,3 +1,4 @@
+import { async } from '@angular/core/testing';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +7,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./promise.component.scss']
 })
 export class PromiseComponent implements OnInit {
+// Promise Vs Observable
+// Promise
+//   1. async
+//   2. Return Single value
+//       -resolve (yes)
+//       -reject (no)
+
+// Observable
+  // 1. async or sync
+  // 2. Return Stream of Values
+  //  0-----------0---------0
+
+
+
+
+
 
   promiseValues: any;
   dell = {
