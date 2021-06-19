@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PromiseComponent } from './promise/promise.component';
+import { AsyncAwaitComponent } from './Async-Await/Async-Await.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     HeaderComponent,
-    PromiseComponent
+    PromiseComponent,
+      AsyncAwaitComponent
    ],
   imports: [
     BrowserModule,
