@@ -15,6 +15,7 @@ export class AsyncAwaitComponent implements OnInit {
     color: 'Black'
   }
   constructor() {
+    console.log("test");
 
   }
 
